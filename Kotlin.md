@@ -15,7 +15,7 @@
 4. [코틀린 입출력 메서드](#kotlin-io-method)
     1. [출력](#output)
     2. [입력](#input)
-    3. [지정된 형식으로 출력](#output-in-specified-format)
+    3. [문자열 템플릿](#output-in-specified-format)
 5. [기본 문법](#basic-grammar)
     1. [주석](#remark)
     2. [변수](#variables)
@@ -213,8 +213,9 @@ Apple
 <br/>
 
 Scanner에서 사용하는 주요 메소드의 종류는 다음과 같습니다.
+
 |  <center>메소드(Method)</center> |  <center>설명</center> |
-|:--------|:--------:|--------:|
+|:--------|:--------:|
 |**nextByte()** | <center>Byte 타입으로 리턴</center> |
 |**nextShort()** | <center>Short 타입으로 리턴</center> |
 |**nextInt()** | <center>Int 타입으로 리턴</center> |
@@ -227,9 +228,23 @@ Scanner에서 사용하는 주요 메소드의 종류는 다음과 같습니다.
 <br/>
 <a id="output-in-specified-format"></a>
 
-## 지정된 형식으로 출력
+## 문자열 템플릿
 
-지정된 형식으로 출력하고 싶으면 ${}을 사용하면 됩니다.
+코틀린에서는 문자열 템플릿을 제공합니다. $나 ${}로 사용가능 합니다.
+
+```kotlin
+fun main() {
+    val name = "ImTae"
+
+    println("Nice to meet you, $name !")
+}
+```
+출력 결과
+```
+Nice to meet you, ImTae !
+```
+<br/>
+
 
 ```kotlin
 import java.util.Scanner
@@ -254,3 +269,6 @@ Nice to meet you, ImTae!
 <a id="basic-grammar"></a>
 
 # 기본 문법
+
+<a id="remark"></a>
+## 주석
