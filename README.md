@@ -1,5 +1,3 @@
-[![Author](https://img.shields.io/badge/author-Im--Tae-red.svg)]( https://github.com/Im-Tae ) [![Language](https://img.shields.io/badge/language-Kotlin-green.svg)](  https://kotlinlang.org/  ) [![MIT License](https://img.shields.io/badge/license-MIT%20License-blue.svg)]( https://opensource.org/licenses/MIT )
-
 # KotlinReadMe
 [![Author](https://img.shields.io/badge/author-Im--Tae-red.svg)]( https://github.com/Im-Tae ) [![Language](https://img.shields.io/badge/language-Kotlin-green.svg)](  https://kotlinlang.org/  ) [![MIT License](https://img.shields.io/badge/license-MIT%20License-blue.svg)]( https://opensource.org/licenses/MIT )
 
