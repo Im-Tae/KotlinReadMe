@@ -314,6 +314,7 @@ fun main() {
 <br/>
 
 \+ 자료형에 별명을 붙일 때에는 typealias를 사용하면됩니다.
+
 ```kotlin
 typealias Human = String
 
@@ -326,9 +327,23 @@ val name: Human = "ImTae"
 ## 변수
 
 Java에서는 " 자료형 변수이름 " 형태를 사용하지만, Kotlin에서는 " var 변수이름 : 자료형 " 형태를 사용합니다.
+
 ```kotlin
 fun main() {
     var name: String = "ImTae!"
 }
 ```
 
+<br/>
+<a id="constant"></a>
+
+## 상수
+
+kotlin에서 상수는 자바의 final 변수의 개념과 같습니다. 따라서 한번 초기화 해주면 값이 바뀌지 않습니다. <br/>
+" val 변수이름: 자료형 " 형태를 사용합니다.
+
+```kotlin
+fun main() {
+    val name: String = "ImTae!"
+}
+```
