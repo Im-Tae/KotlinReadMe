@@ -18,13 +18,14 @@
     3. [문자열 템플릿](#output-in-specified-format)
 5. [기본 문법](#basic-grammar)
     1. [주석](#remark)
-    2. [변수](#variables)
-    3. [상수](#constant)
-    4. [조건문](#)
-    5. [조건식](#)
-    6. [함수](#method)
-    7. [Null 안전](#null-safety)
-    8. [예외처리](#exception)
+    2. [자료형](#data-type)
+    3. [변수](#variables)
+    4. [상수](#constant)
+    5. [조건문](#)
+    6. [조건식](#)
+    7. [함수](#method)
+    8. [Null 안전](#null-safety)
+    9. [예외처리](#exception)
     
 
 
@@ -284,7 +285,38 @@ fun main() {
 ```
 
 <br/>
-<a id="variables"></a>
+<a id="data-type"></a>
 
-## 변수
+## 자료형
 
+|  <center>정수 자료형</center> |  <center>크기</center> |
+|:--------|:--------:|
+|**Byte** | <center>1 Byte</center> |
+|**Short** | <center>2 Byte</center> |
+|**Int** | <center>4 Byte</center> |
+|**Long** | <center>8 Byte</center> |
+<br/>
+
+|  <center>실수 자료형</center> |  <center>크기</center> |
+|:--------|:--------:|
+|**Float**| <center>4 Byte</center> |
+|**Double**| <center>8 Byte</center> |
+<br/>
+
+|  <center>문자 자료형</center> |  <center>크기</center> |
+|:--------|:--------:|
+|**Char**| <center>2 Byte</center> |
+<br/>
+
+|  <center>문자열 자료형</center> |  <center>크기</center> |
+|:--------|:--------:|
+|**String**| <center></center> |
+<br/>
+
+\+ 자료형에 별명을 붙일 때에는 typealias를 사용하면됩니다.
+```kotlin
+typealias Human = String
+
+val name: Human = "ImTae"
+```
+<br/>
