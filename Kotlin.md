@@ -271,4 +271,20 @@ Nice to meet you, ImTae!
 # 기본 문법
 
 <a id="remark"></a>
+
 ## 주석
+
+코틀린에서 주석 사용법은 Java와 동일하게 //을 사용합니다.
+
+```kotlin
+fun main() {
+    println("안녕하세요. 이것은 주석이 아닙니다.")
+    //println("안녕하세요. 이것은 주석입니다.")
+}
+```
+
+<br/>
+<a id="variables"></a>
+
+## 변수
+
