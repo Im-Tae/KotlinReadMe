@@ -231,7 +231,7 @@ Scanner에서 사용하는 주요 메소드의 종류는 다음과 같습니다.
 
 ## 문자열 템플릿
 
-코틀린에서는 문자열 템플릿을 제공합니다. $나 ${}로 사용가능 합니다.
+Kotlin에서는 문자열 템플릿을 제공합니다. $나 ${}로 사용가능 합니다.
 
 ```kotlin
 fun main() {
@@ -275,7 +275,7 @@ Nice to meet you, ImTae!
 
 ## 주석
 
-코틀린에서 주석 사용법은 Java와 동일하게 //을 사용합니다.
+Kotlin에서 주석 사용법은 Java와 동일하게 //을 사용합니다.
 
 ```kotlin
 fun main() {
@@ -319,4 +319,16 @@ typealias Human = String
 
 val name: Human = "ImTae"
 ```
+
 <br/>
+<a id="variables"></a>
+
+## 변수
+
+Java에서는 " 자료형 변수이름 " 형태를 사용하지만, Kotlin에서는 " var 변수이름 : 자료형 " 형태를 사용합니다.
+```kotlin
+fun main() {
+    var name: String = "ImTae!"
+}
+```
+
