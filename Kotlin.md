@@ -21,7 +21,7 @@
     2. [자료형](#data-type)
     3. [변수](#variables)
     4. [상수](#constant)
-    5. [조건문](#)
+    5. [조건문](#conditional-statement)
     6. [조건식](#)
     7. [함수](#method)
     8. [Null 안전](#null-safety)
@@ -345,5 +345,65 @@ kotlin에서 상수는 자바의 final 변수의 개념과 같습니다. 따라�
 ```kotlin
 fun main() {
     val name: String = "ImTae!"
+}
+```
+
+<br/>
+<a id="conditional-statement"></a>
+
+## 조건문
+
+### if-else
+
+if-else 조건문은 다른 언어와 동일합니다.
+
+```kotlin
+fun main() {
+    val num = 77
+
+    if (num >= 90) {
+        println("90점이 넘어요!")
+    } 
+    else {
+        println("90점 보다 낮아요!")
+    }
+}
+```
+
+출력 결과
+```
+90점 보다 낮아요!
+```
+<br/>
+
+```kotlin
+fun main() {
+    val num = 77
+
+    if (num >= 90) {
+        println("90점이 넘어요!")
+    }
+    else if (num >= 70) {
+        println("70점이 넘어요!")
+    }
+    else {
+        println("재시험이 필요해요!")
+    }
+}
+```
+
+출력 결과
+```
+70점이 넘어요!
+```
+<br/>
+
+### switch-case
+
+switch-case 조건문 또한 동일합니다.
+
+```kotlin
+fun main() {
+    
 }
 ```
