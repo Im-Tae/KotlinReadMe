@@ -22,7 +22,7 @@
     3. [변수](#variables)
     4. [상수](#constant)
     5. [조건문](#conditional-statement)
-    6. [조건식](#)
+    6. [조건식](#conditional-expression)
     7. [함수](#method)
     8. [Null 안전](#null-safety)
     9. [예외처리](#exception)
@@ -404,6 +404,75 @@ switch-case 조건문 또한 동일합니다.
 
 ```kotlin
 fun main() {
-    
+    val num = 7
+
+    switch(num) {
+        case 1:
+        println("숫자가 1입니다.")
+        break;
+
+        case 7:
+        println("숫자가 7입니다.")
+        break;
+
+        default:
+        println("모르겠어요!")
+    }
 }
 ```
+출력 결과
+```
+숫자가 7입니다.
+```
+<br/>
+
+### when
+
+코틀린에는 when 조건문이라는 것이 있습니다. switch-case와 같다고 보시면 됩니다.
+
+```kotlin
+fun main() {
+    val name = "임태"
+
+    when(name) {
+        "임태" -> println("안녕하세요! 임태님!")
+        "성범" -> {
+            println("안녕하십니까?")
+            println("이성범님!")
+        }
+        else -> {
+            println("누구시죠?")
+        }
+    }
+}
+```
+
+출력 결과
+```
+안녕하세요! 임태님!
+```
+<br/>
+
+when 조건문을 아래와 같이 쓸수도 있습니다.
+```kotlin
+fun main() {
+    val name = "임태건"
+    
+    val num = when(name) {
+        "임태건" -> 7
+        else -> 1
+    }
+
+    println(num)
+}
+```
+
+출력 결과
+```
+7
+```
+
+<br/>
+<a id="conditional-expression"></a>
+
+## 조건식
