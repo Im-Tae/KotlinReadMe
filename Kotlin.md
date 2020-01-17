@@ -22,7 +22,7 @@
     3. [변수](#variables)
     4. [상수](#constant)
     5. [조건문](#conditional-statement)
-    6. [조건식](#conditional-expression)
+    6. [반복문](#loop-statement)
     7. [함수](#method)
     8. [Null 안전](#null-safety)
     9. [예외처리](#exception)
@@ -473,6 +473,7 @@ fun main() {
 ```
 
 <br/>
-<a id="conditional-expression"></a>
+<a id="loop-statement"></a>
 
-## 조건식
+## 반복문
+
